@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sale | Computer Shop</title>
+style 
+    include ../static/style2.css
+</head>
+<body>
+    <div class="title">
+        <div class="box" id="box-1">
+            <img src="../static/logo2.png" alt="LOGO MISSING">
+            <h2>COMPUTER SHOP</h2>
+        </div>
+        <div class="box" id="box-2">
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="buy">Buy</a></li>
+                <li><a href="sale">Sale</a></li>
+                <li><a href="http://www.whatsapp.com">Contect US</a></li>
+            </ul>
+        </div>
+        <div class="box" id="box-3">
+            <input type="text" placeholder="Search Here"> 
+        </div>
+    </div>
+    <div class="container">
+        <form action="/sale" method="POST">
+            <input type="text" placeholder="Enter your name" name="name">
+            <input type="text" placeholder="Enter your Email" name="email">
+            <input type="text" placeholder="Enter your Graphics Card" name="gc">
+            <input type="number" placeholder="Enter your ID" name="id">
+            <button>Reset</button>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
